@@ -49,6 +49,13 @@
 	</dependencies>
 
 	<build>
+		<configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>com.luv2code.jenkinproject.Jenkindemo2Application</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
