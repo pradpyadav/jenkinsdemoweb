@@ -54,13 +54,14 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-			
-			<configuration>
+				<configuration>
                    
                             <mainClass>com.luv2code.jenkinproject.Jenkindemo2Application</mainClass>
                         
                 </configuration>
+			</plugin>
+			
+			
 			
 		</plugins>
 	</build>
